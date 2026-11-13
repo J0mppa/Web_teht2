@@ -1,0 +1,22 @@
+body { 
+    background-color: lightblue;
+    width: 1500px;
+    max-width: 70%;
+    margin: 0 auto; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.testi {
+    width: 50%;
+    height: 50%;
+    flex-wrap: wrap;
+}
+
+.nes {
+    width: 25%;
+    height: auto;
+    
+}

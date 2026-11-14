@@ -16,27 +16,37 @@ h1 {
 
 .oikea_otsikko {
     text-align: end;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .konsoli {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
     width: 15%;
+    background-color: blue;
 }
 
 .nes {
-    width: 75%;
+    width: 100%;
     height: auto;    
 }
 
 .peli {
-    width: 25%;
+    width: 33%;
     height: auto;
 }
 
 .teksti {
     width: 100%;
+    background-color: red;
+    padding: 10px;
+    filter:drop-shadow(3px 3px);
+    
 }
 
 .infolohko {
     display: flex;
+    align-items: stretch;
 }

@@ -9,14 +9,23 @@ h1 {
     text-align: center;
 }
 
+.vasen_otsikko {
+    text-align: start;
+    margin-left: 2%;
+}
+
+.oikea_otsikko {
+    text-align: end;
+    margin-right: 5%;
+}
+
 .konsoli {
     width: 15%;
 }
 
 .nes {
     width: 75%;
-    height: auto;
-    
+    height: auto;    
 }
 
 .peli {

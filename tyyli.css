@@ -20,12 +20,12 @@ h2{
 
 }
 
-.vasen_otsikko {
+.vasen {
     text-align: start;
     margin-left: 2%;
 }
 
-.oikea_otsikko {
+.oikea {
     text-align: end;
     margin-right: 2%;
 }
@@ -80,4 +80,35 @@ h2{
     body{
         max-width: 100%;        
     }  
+    .teksti{
+        font-size: 14px;
+        width: 75%;
+    }
+    .infolohko{
+        flex-wrap: wrap;
+        box-shadow: none;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 500px) {
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .otsikko{
+        text-align: center;
+    }
+    .konsoli{
+        width: 35%;
+    }
+    .konsoli{
+        order: 1;
+    }
+    .teksti{
+        order: 2;
+        font-size: 12px;
+    }
 }

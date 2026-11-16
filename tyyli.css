@@ -30,7 +30,7 @@ h2{
     margin-right: 2%;
 }
 
-.konsoli {
+.konsolilaatikko {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -42,7 +42,7 @@ h2{
     border-color: gray;
 }
 
-.nes {
+.konsoli {
     width: 100%;
     height: auto;    
 }
@@ -89,9 +89,12 @@ h2{
         box-shadow: none;
         justify-content: space-evenly;
     }
+    .konsolilaatikko{
+        width: 20%;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     h1{
         font-size: 24px;
     }
@@ -101,11 +104,10 @@ h2{
     .otsikko{
         text-align: center;
     }
-    .konsoli{
-        width: 35%;
-    }
-    .konsoli{
+    
+    .konsolilaatikko{
         order: 1;
+        width: 35%;
     }
     .teksti{
         order: 2;

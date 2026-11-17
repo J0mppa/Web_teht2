@@ -20,14 +20,26 @@ h2{
 
 }
 
+hr{
+    margin-top: 20px;
+}
+
+.väliotsikko{
+    text-align: center;
+    color: rgb(44, 44, 44);
+    
+}
+
 .vasen {
     text-align: start;
     margin-left: 2%;
+    color: rgb(0, 15, 97);
 }
 
 .oikea {
     text-align: end;
     margin-right: 2%;
+    color: rgb(0, 15, 97);
 }
 
 .konsolilaatikko {

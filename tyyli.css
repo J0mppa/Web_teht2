@@ -43,24 +43,32 @@ h2{
 }
 
 .konsoli {
-    width: 100%;
-    height: auto;    
+    width: 100%;   
 }
 
 .peli {
-    width: 33%;
-    height: auto;
+    width: 30%;
 }
 
 .teksti {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 5px;
     border-color: gray;
     border-style: solid;
-    border-width: 2px;
+    border-width: 2px; 
+    text-align: center;   
+}
 
-    
+#esittelyteksti{
+    width: 95%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;  
+    margin: 0 auto; 
+    padding: 5px;
 }
 
 .infolohko {
@@ -74,6 +82,7 @@ h2{
     background-color: rgba(255, 170, 0, 0.849);
     padding-top: 1px;
     padding-bottom: 50px;
+    
 }
 
 @media (max-width: 900px) {
@@ -81,9 +90,12 @@ h2{
         max-width: 100%;        
     }  
     .teksti{
-        font-size: 14px;
+        font-size: 90%;
         width: 75%;
     }
+    #esittelyteksti{
+        font-size: 90%;
+}
     .infolohko{
         flex-wrap: wrap;
         box-shadow: none;
@@ -96,10 +108,10 @@ h2{
 
 @media (max-width: 550px) {
     h1{
-        font-size: 24px;
+        font-size: 120%;
     }
     h2{
-        font-size: 20px;
+        font-size: 100%;
     }
     .otsikko{
         text-align: center;
@@ -112,5 +124,8 @@ h2{
     .teksti{
         order: 2;
         font-size: 12px;
+    }
+    #esittelyteksti{
+        font-size: 80%;
     }
 }
